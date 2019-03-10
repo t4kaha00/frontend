@@ -1,34 +1,45 @@
 import React, {Component} from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, NavbarBrand } from 'react-bootstrap';
+import { Navbar, Nav, NavItem, NavDropdown, NavbarBrand, FormControl, Button } from 'react-bootstrap';
 import DropdownToggle from 'react-bootstrap/DropdownToggle';
 import DropdownMenu from 'react-bootstrap/DropdownMenu';
 import DropdownItem from 'react-bootstrap/DropdownItem';
 import NavbarCollapse from 'react-bootstrap/NavbarCollapse';
+import NavLink from 'react-bootstrap/NavLink';
+import NavbarToggle from 'react-bootstrap/NavbarToggle';
+import Form from 'react-bootstrap/FormGroup';
 
 export default class App extends Component {
     render () {
         return (
         <div>
-            <p>This is my new react app</p>
-            <p>Second line.</p>
+            <Navbar bg="light" expand="lg">
+                <NavLink>News</NavLink>
+                <NavLink>Intranet</NavLink>
+                <NavDropdown title="Language" id="basic-nav-dropdown">
+                <NavDropdown.Item href="">Finnish</NavDropdown.Item>
+                <NavDropdown.Item href="">English</NavDropdown.Item>
+            </NavDropdown>
+            </Navbar>
 
-            <Navbar>
-            <NavbarBrand>
+            {/* <p>This is my new react app</p> */}
+
+            <Navbar bg="primary" expand="lg">
+            <NavbarBrand >
                 <strong>Liana</strong>
             </NavbarBrand>
         
-            <Nav>
-                <NavItem>Home</NavItem>
-                <NavItem>News</NavItem>
-                <NavItem>Company</NavItem>
-                <NavItem>Contact Us</NavItem>
-            </Nav>
-            <NavDropdown title="Language">
-                <DropdownMenu>
-                    <DropdownItem>Finnish</DropdownItem>
-                    <DropdownItem>English</DropdownItem>
-                </DropdownMenu>
-            </NavDropdown>            
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav className="mr-auto">
+                <Nav.Link>Company</Nav.Link>
+                <Nav.Link>Products</Nav.Link>
+                <Nav.Link>Contact us</Nav.Link>           
+            </Nav>;
+            <Form inline>
+                <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
+                <Button variant="outline-success">Search</Button>
+            </Form>
+            </Navbar.Collapse>
             </Navbar>
 
             {/* <Navbar bg="dark" expand="lg">
