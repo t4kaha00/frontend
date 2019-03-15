@@ -12,61 +12,65 @@ export default class App extends Component {
     render () {
         return (
         <div>
-            <Navbar className="bg-success" expand="lg">
+        <div className="bg-success fixed-top">
+            <Navbar className="float-lg-right " expand="lg">
+
                 <NavLink>News</NavLink>
                 <NavLink>Intranet</NavLink>
-                <NavDropdown title="Language" id="basic-nav-dropdown">
+                <NavDropdown title="Language" id="basic-nav-dropdown" className="bg-light rounded xs">
                 <NavDropdown.Item href="">Finnish</NavDropdown.Item>
                 <NavDropdown.Item href="">English</NavDropdown.Item>
-            </NavDropdown>
+                </NavDropdown>
+
             </Navbar>
+        </div>
 
             {/* <p>This is my new react app</p> */}
 
-            <Navbar bg="success" expand="lg">
+            <Navbar className="mt-5" expand="lg">
             <NavbarBrand >
                 <strong>Liana</strong>
             </NavbarBrand>
-        
+
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="mr-auto font-weight-light">
                 <Nav.Link>Company</Nav.Link>
                 <Nav.Link>Products</Nav.Link>
-                <Nav.Link>Contact us</Nav.Link>           
-            </Nav>;
-            <Form inline>
-                <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
-                <Button variant="outline-success">Search</Button>
+                <Nav.Link>Contact us</Nav.Link>
+            </Nav>
+            <Form inline className="form-inline m-3">
+                <FormControl type="text" placeholder="Search" />
+                <Button variant="success" className="ml-2 btn-xs">Search</Button>
             </Form>
             </Navbar.Collapse>
             </Navbar>
 
-            <Card className="bg-dark" text="light">
+            <Card className="bg-dark text-center" text="light">
                 <Card.Img src="../src/together.jpg" alt="Card image" thumbnail/>
-                <Card.ImgOverlay className="text-center ">
+                <Card.ImgOverlay className="w-25 h-25 m-auto">
                     <Card.Title>Software fueling digital marketing</Card.Title>
                     <Button variant="success">Learn More</Button>
                 </Card.ImgOverlay>
             </Card>
-            
-            <CardDeck className="p-4">
-                <Card className="text-center" text="light" >
-                <Card.Img src="../src/company.jpg" alt="Card image"  />
-                <Card.ImgOverlay>
-                    <Card.Title className="card-body ">Company</Card.Title>
+
+            <CardDeck className="py-5 px-5">
+                <Card className="text-center my-auto" text="light" >
+                <Card.Img src="../src/company.jpg" className="img-fluid" alt="Card image"  />
+                <Card.ImgOverlay className="m-auto h-50">
+                    <Card.Title className="card-body">Company</Card.Title>
                 </Card.ImgOverlay>
                 </Card>
-                <Card className="text-center" text="light">
+                <Card className="text-center my-auto" text="light">
                 <Card.Img src="../src/together.jpg" alt="Card image" />
-                <Card.ImgOverlay>
-                    <Card.Title className="card-body mb-0">Products</Card.Title>
+                <Card.ImgOverlay className="m-auto h-50">
+                    <Card.Title className="card-body py-auto">Products</Card.Title>
                 </Card.ImgOverlay>
                 </Card>
-                <Card className="text-center" text="light">
+                <Card className="text-center my-auto" text="light">
                 <Card.Img src="../src/contact.jpg" alt="Card image" />
-                <Card.ImgOverlay>
-                    <Card.Title className="card-body mb-0">Contact Us</Card.Title>
+                <Card.ImgOverlay className="m-auto h-50">
+                    <Card.Title className="card-body">Contact Us</Card.Title>
                 </Card.ImgOverlay>
                 </Card>
             </CardDeck>
@@ -87,7 +91,7 @@ export default class App extends Component {
                         28.01.2016
                     </small>
                     <Card.Text>
-                        From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology 
+                        From a local startup to a global player: Liana Technologies among the forerunners of digital marketing technology
                     </Card.Text>
                 </Card>
                 <Card className="p-4 text-left" style={{ width: '18rem' }}>
@@ -108,7 +112,7 @@ export default class App extends Component {
                    Software fueling digital marketing
                </Figure.Caption>
            </Figure> */}
-        
+
         </div>
         )
     }
