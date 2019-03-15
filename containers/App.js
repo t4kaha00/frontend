@@ -46,17 +46,17 @@ export default class App extends Component {
             </Navbar.Collapse>
             </Navbar>
 
-            <Card className="bg-dark text-center" text="light">
-                <Card.Img src="../src/together.jpg" alt="Card image" thumbnail/>
-                <Card.ImgOverlay className="w-25 h-25 m-auto">
-                    <Card.Title>Software fueling digital marketing</Card.Title>
+            <Card  className="text-center" text="light">
+                <Card.Img src="../src/main.jpg" alt="Card image" height={364}/>
+                <Card.ImgOverlay className="m-auto h-50">
+                    <Card.Title><h1 className=" font-weight-light lg">Software fueling digital marketing</h1></Card.Title>
                     <Button variant="success">Learn More</Button>
                 </Card.ImgOverlay>
             </Card>
 
             <CardDeck className="py-5 px-5">
                 <Card className="text-center my-auto" text="light" >
-                <Card.Img src="../src/company.jpg" className="img-fluid" alt="Card image"  />
+                <Card.Img src="../src/company.jpg" className="img-fluid" alt="Card image" h-100 fluid/>
                 <Card.ImgOverlay className="m-auto h-50">
                     <Card.Title className="card-body">Company</Card.Title>
                 </Card.ImgOverlay>
@@ -77,7 +77,7 @@ export default class App extends Component {
 
             <Jumbotron className="text-center p-4 ">
             <h4>Latest News</h4>
-            <CardDeck bg="light" className="pm-8 text-center">
+            <CardDeck className="pm-8 text-center">
                 <Card className="p-4 text-left" style={{ width: '18rem' }}>
                     <small className="text-muted mb-2">
                         27.07.2016
@@ -112,6 +112,23 @@ export default class App extends Component {
                    Software fueling digital marketing
                </Figure.Caption>
            </Figure> */}
+
+           <div class="card-footer">
+           <div class="card-body float-left">
+              <h2>Liana Technologies</h2>
+              <p>Sales and inquiries</p>
+              <p>Email: sales@lianatech.com</p>
+              <p>Phone: +358 10 387 7053 </p>
+              <button type="button" class="btn btn-success">Contact us</button>
+           </div>
+           <div class="card-body float-right">
+              <a href="#" class="card-link">Company</a>
+              <a href="#" class="card-link">Products</a>
+              <a href="#" class="card-link">Contact us</a>
+              <a href="#" class="card-link">News</a>
+              <a href="#" class="card-link">Intranet</a>
+           </div>
+           </div>
 
         </div>
         )
