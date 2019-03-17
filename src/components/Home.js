@@ -63,7 +63,7 @@ const Home = () => (
         </Card>
       </CardDeck>
     </Jumbotron>
-    
+
 </div>
 )
 
