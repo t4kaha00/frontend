@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => (
 
-  <div className="card-footer">
+  <div className="card-footer bg-dark">
   <div className="card-body float-left">
      <h2>Liana Technologies</h2>
      <p>Sales and inquiries</p>

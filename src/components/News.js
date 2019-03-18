@@ -1,10 +1,14 @@
 import React from 'react'
-import { Jumbotron, Button } from 'react-bootstrap';
+import { Jumbotron, Button, Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 
 const News = () => (
-  <div className="w-100 p-5 my-auto">
+  <div className="mt-5 mx-auto">
+
+  <Container>
+  <Row>
+    <Col>
     <Link to="/pages/digital-marketing">
       <Jumbotron className="text-center w-100 float-left">
         <img src="../src/digital.jpg"
@@ -15,9 +19,13 @@ const News = () => (
         </h2>
         </Jumbotron>
       </Link>
+      </Col>
+    </Row>
 
-      <Link to="/pages/digital-marketing">
-        <Jumbotron className="text-center float-left" style={{width: '48%', height: '400px'}}>
+    <Row>
+    <Col md={6}>
+      <Link to="/pages/google-display">
+        <Jumbotron className="text-center">
           <img src="../src/google-display.jpg"
             alt="Digital Marketing in 2022"
             className="align-self-center img-fluid"/>
@@ -26,17 +34,18 @@ const News = () => (
           </h2>
           </Jumbotron>
         </Link>
-
-        <Link to="/pages/digital-marketing">
-          <Jumbotron className="text-center float-right" style={{width: '48%', height: '400px'}}>
+      </Col>
+      <Col md={6}>
+        <Link to="/pages/higher-education">
+          <Jumbotron className="text-center">
             <img src="../src/digital-marketing-guide.jpg"
               alt="Digital Marketing in 2022"
-              className="align-self-center img-fluid "/>
-            <h2>
-              Free Download: Digital Marketing for Higher Education
-            </h2>
+              className="align-self-center img-fluid"/>
             </Jumbotron>
           </Link>
+      </Col>
+      </Row>
+      </Container>
     </div>
 )
 

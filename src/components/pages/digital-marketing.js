@@ -2,7 +2,7 @@ import React from 'react';
 
 
   const DigitalMarketing = () => (
-    <div style={{}} className="m-5">
+    <div className="w-75 mx-auto mt-5">
 
     <h2>14 Digital Marketing Predictions for 2022 [+ Infographic]</h2>
 
@@ -120,6 +120,7 @@ import React from 'react';
     <p><em>(The infographic was made by our Visual Marketing Specialist Veera Kontiokari. <a href="https://www.linkedin.com/in/vekonti/" target="_blank">Veera's LinkedIn.</a>)</em></p>
     <p>It&rsquo;s time to wrap it up.</p>
     <p>What other digital marketing trends will come up in the future in your opinion? Share your ideas in the comments below!</p>
+    <pubDate>Fri, 25 Jan 2019 10:18:00 +0200</pubDate>
 </div>
   )
 

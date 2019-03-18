@@ -18,12 +18,15 @@ export default class App extends Component {
     render () {
         return (
           <div>
+
             <div>
               <Navigation />
               <Router />
               <Footer />
 
             </div>
+            
+
           </div>
         )
     }
