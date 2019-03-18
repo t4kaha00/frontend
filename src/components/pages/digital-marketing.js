@@ -2,7 +2,17 @@ import React from 'react';
 
 
   const DigitalMarketing = () => (
-    <div style={{display: 'none'}}>
+    <div style={{}} className="m-5">
+
+    <h2>14 Digital Marketing Predictions for 2022 [+ Infographic]</h2>
+
+    <img src="../src/digital.jpg"
+      alt="Digital Marketing in 2022"
+      className="align-self-center img-fluid"/><br /><br />
+
+    <em>What does the future hold for digital marketing?<br /></em>
+    <em>What digital marketing jobs will be in demand?<br /></em>
+    <em>Is the future of social media headed for disaster?</em>
     <p>We&rsquo;ve summarized some key facts &amp; figures for marketers to be prepared for the future. All the way up to 2022.</p>
     <p>At the end, take a look at the infographic depicting all digital marketing predictions.</p>
     <p>Let&rsquo;s dive in!</p>
