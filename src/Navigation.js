@@ -16,9 +16,9 @@ const Navigation = () => (
       </Navbar>
     </div>
 
-    <Navbar className="mt-5 bg-light font-weight-light" expand="lg">
+    <Navbar className="mt-5 font-weight-light" expand="lg">
       <NavbarBrand>
-        <img src="../src/liana-logo.jpg" className="ml-5 mt-2" height={40} alt="Liana logo"/>
+        <a href="/"><img src="../src/liana-logo.jpg" className="ml-5 mt-2" height={40} alt="Liana logo"/></a>
       </NavbarBrand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -28,7 +28,7 @@ const Navigation = () => (
             <Nav.Link>Products</Nav.Link>
             <Nav.Link>Contact us</Nav.Link>
         </Nav>
-        <Form inline className="form-inline mr-3 my-auto bg/primary">
+        <Form inline className="form-inline mr-3 my-auto">
             <FormControl type="text" placeholder="Search" />
             <Button variant="success" className="ml-2 btn-xs">Search</Button>
         </Form>

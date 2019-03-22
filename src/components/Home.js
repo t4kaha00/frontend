@@ -1,18 +1,15 @@
 import React from 'react'
 import { Card, CardGroup, CardDeck, Jumbotron, Button } from 'react-bootstrap';
-import Footer from './Footer'
+
 
 const Home = () => (
   <div>
+    <div>
 
-      <Card  className="text-center"  style={{width: '100%', height: '100vh' }} text="light">
-          <Card.Img src="../src/main.jpg" alt="Card image" resizeMode="" style={{fit: 'crop'}}/>
-          <Card.ImgOverlay className="m-auto h-50">
-              <Card.Title><h1 className=" font-weight-light lg">Software fueling digital marketing</h1></Card.Title>
-              <Button variant="success">Learn More</Button>
-          </Card.ImgOverlay>
-      </Card>
+        <h1 className=" font-weight-light lg">Software fueling digital marketing</h1>
+        <Button variant="success" href="/news">Learn More</Button>
 
+    </div>
 
       <CardDeck className="py-5 px-5" height={200}>
           <Card className="text-center my-auto" text="light" >
