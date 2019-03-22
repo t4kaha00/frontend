@@ -21,7 +21,7 @@ import { Container, Row, Col } from 'react-bootstrap';
         </Col>
         <Col md={4}>
           <p>
-            <img src="../src/higher-education.jpg" alt="Digital Marketing for Higher Education"
+            <img src="../src/images/higher-education.jpg" alt="Digital Marketing for Higher Education"
             className="align-self-center img-fluid"/>
           </p>
         </Col>

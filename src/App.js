@@ -14,22 +14,14 @@ import Router from './Router'
 import Home from './components/Home'
 import Footer from './components/Footer'
 
-import "./components/home.css"
-
 export default class App extends Component {
 
     render () {
         return (
 
-            <div className="wrapper">
-              <section className="section parallax">
-
-              </section>
-              <section class="section static">
+            <div>
                 <Navigation />
                 <Router />
-                <Footer />
-              </section>
             </div>
 
         )

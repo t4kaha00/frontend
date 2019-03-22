@@ -1,8 +1,12 @@
 import React from 'react'
 
+const linkStyle = {
+  color: 'white'
+}
+
 const Footer = () => (
 
-  <div>
+  <footer className="bg-dark w-100" >
     <div className="card-body float-left">
        <h2>Liana Technologies</h2>
        <p>Sales and inquiries</p>
@@ -11,13 +15,13 @@ const Footer = () => (
        <button type="button" className="btn btn-success">Contact us</button>
     </div>
     <div className="card-body float-right">
-       <a href="#" className="card-link">Company</a>
-       <a href="#" className="card-link">Products</a>
-       <a href="#" className="card-link">Contact us</a>
-       <a href="#" className="card-link">News</a>
-       <a href="#" className="card-link">Intranet</a>
+       <a style={linkStyle} href="#" className="card-link">Company</a>
+       <a style={linkStyle} href="#" className="card-link">Products</a>
+       <a style={linkStyle} href="#" className="card-link">Contact us</a>
+       <a style={linkStyle} href="#" className="card-link">News</a>
+       <a style={linkStyle} href="#" className="card-link">Intranet</a>
     </div>
-  </div>
+  </footer>
 )
 
 export default Footer

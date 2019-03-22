@@ -15,6 +15,11 @@ module.exports = {
 			},{
 				test: /\.(less|css)$/,
 				loaders: ["style-loader", "css-loader", "less-loader"]
+			},{
+				test: /\.(ttf|eot|svg|gif)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        include: parentDir,
+        use: [{
+          loader: 'file-loader'
 			}
 		]
     },

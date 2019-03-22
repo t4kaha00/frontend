@@ -5,7 +5,7 @@ import React from 'react';
 
     <h2>6 Reasons why Media Monitoring is Important for your Business</h2>
     <br /><br />
-    <img src="../src/media-monitoring.jpg"
+    <img src="../src/images/media-monitoring.jpg"
       alt="AI helps you to measure your communications and target your content"
       className="align-self-center img-fluid"/><br /><br />
     <p>Understanding what is happening around you is the first fundamental step to long-term success.</p>
@@ -18,13 +18,13 @@ import React from 'react';
     <h2>2. Manage your reputation and respond to crisis situations</h2>
     <p>With a media monitoring service, you can closely follow what is written about your company and what the tone of the discussion is. Speed is of the essence especially in social media where discussions &ndash; both positive and negative &ndash; arise quickly.</p>
     <p>The monitoring tool will notify you as soon as your brand is mentioned in journalistic or social media. Rejoice positive comments, respond to questions and concerns and react to customer churn. A prompt response to any feedback shows customers that you care about their experience and turn possible negative perceptions around. You can even set up app notifications for certain words that would indicate a&nbsp;crisis.</p>
-    <p><img src="../src/media-monitoring-1.png"/></p>
+    <p><img src="../src/images/media-monitoring-1.png"/></p>
     <p><em>Virgin Mobile USA wins back an unhappy customer with a quick response that shows they really care.</em></p>
 
     <h2>3. Elevate your brand with key opinion leaders</h2>
     <p>Key Opinion Leaders (KOLs) are thought leaders whose opinions are valued in a specific industry. Cooperation with the right influencer can skyrocket your brand awareness, strengthen customer relationships and boost your sales.</p>
     <p>Media monitoring helps you to follow the experts, bloggers, &ldquo;gurus&rdquo; and advocacies in your business and find the best fit for your brand.</p>
-    <p><img src="../src/media-monitoring-2.png"/></p>
+    <p><img src="../src/images/media-monitoring-2.png"/></p>
     <p><em>Kellogg&rsquo;s boosted brand awareness through cooperation with Megsquats who has over 340 000 followers on Instagram. <a href="https://www.instagram.com/p/BdN7WPFA_1O/?utm_source=ig_embed">Source</a>.</em></p>
 
     <h2>4. Know your industry and competitors</h2>
@@ -34,7 +34,7 @@ import React from 'react';
     <h2>5. Measure the effectiveness of your communications</h2>
     <p>Media monitoring is a great strategic tool to measure and improve the effectiveness of your communications. You can closely follow how much media attention your actions receive. Do you reach your target audiences? Do you get the reaction you intended? Media monitoring data works as a reliable source for decision making.</p>
     <p>The best thing about a monitoring tool is convenience. It&nbsp;does all the (boring) manual tasks on your behalf. It collects and analyzes the data for you, stacks all the hits and sends the report directly to your email at chosen times. Media monitoring saves your precious time&nbsp;and lets you focus on developing your strategy and planning future actions. The reports and analytics also help convince the company management. With the data, you can show that your PR has been profitable and you have achieved concrete results.</p>
-    <p><img src="../src/media-monitoring-3.jpg"/></p>
+    <p><img src="../src/images/media-monitoring-3.jpg"/></p>
     <p><em>A monitoring tool makes it easy to follow where your press release ends up after being published.</em></p>
 
     <h2>6. Find ideas for new content</h2>

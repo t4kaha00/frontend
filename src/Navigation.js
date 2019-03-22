@@ -4,7 +4,7 @@ import { Navbar, NavItem, NavDropdown, NavbarBrand, Nav, Form, FormControl, Butt
 import DropdownItem from 'react-bootstrap/DropdownItem';
 
 const Navigation = () => (
-  <header>
+  <header className="fixed-top">
     <div className="bg-success fixed-top">
       <Navbar className="float-sm-right" expand="lg">
           <NavLink to='/news' style={{color: 'white'}} className="pr-4">News</NavLink>
@@ -16,9 +16,9 @@ const Navigation = () => (
       </Navbar>
     </div>
 
-    <Navbar className="mt-5 font-weight-light" expand="lg">
+    <Navbar className="mt-5 font-weight-light bg-light" expand="lg">
       <NavbarBrand>
-        <a href="/"><img src="../src/liana-logo.jpg" className="ml-5 mt-2" height={40} alt="Liana logo"/></a>
+        <a href="/"><img src="../src/images/liana-logo.jpg" className="ml-5 mt-2" height={40} alt="Liana logo"/></a>
       </NavbarBrand>
 
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -33,8 +33,8 @@ const Navigation = () => (
             <Button variant="success" className="ml-2 btn-xs">Search</Button>
         </Form>
       </Navbar.Collapse>
-
     </Navbar>
+
   </header>
 )
 

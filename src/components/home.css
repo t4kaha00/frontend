@@ -18,12 +18,9 @@ body,html{margin:0;padding:0;}
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: 100vh;
 
-  /* For text formatting. */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+
 }
+
 
 .parallax::after {
   /* Display and position the pseudo-element */
@@ -43,5 +40,5 @@ body,html{margin:0;padding:0;}
   /* Keep the image from overlapping sibling elements. */
   z-index: -1;
 
-  background-image: url("https://placekitten.com/g/800/600");
+  background-image: url('http://www.students.oamk.fi/~t6bada00/Koodiviidakko/assets/background.png');
 }

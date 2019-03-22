@@ -7,7 +7,7 @@ import { Button } from 'react-bootstrap';
 
     <h2>AI helps you to measure your communications and target your content</h2>
 
-    <img src="../src/ai-1.jpg"
+    <img src="../src/images/ai-1.jpg"
       alt="AI helps you to measure your communications and target your content"
       className="align-self-center img-fluid"/><br /><br />
 
@@ -20,7 +20,7 @@ import { Button } from 'react-bootstrap';
     <p>AI-based media monitoring can also analyze the contents of the news pieces and articles it has collected, and tell you whether they've been written in a positive, neutral or negative tone. Typically these kinds of tone analyses are done manually by people which means the process takes a lot of time and resources. AI, on the other hand, does the analysis cost-effectively and in real time. This enables you to react to negative news about your organization with your own media release as soon as you receive an email about any negative publicity.</p>
     <p>A tone analysis that AI compiles also gives you an idea of what the current state of your organization's or brand's image in the media is and what direction it takes with effective PR work. Even negative publicity can be turned into positive once it is clear which media outlets you should target in the future.</p>
 
-    <img src="../src/ai-2.jpg"
+    <img src="../src/images/ai-2.jpg"
       alt="AI helps you to measure your communications and target your content"
       className="align-self-center img-fluid"/><br /><br />
     <p><em>The AI feature in Liana&reg; PR Cloud communications entity determines the tone of news quickly and accurately.</em></p>

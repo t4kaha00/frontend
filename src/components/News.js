@@ -11,7 +11,7 @@ const News = () => (
       <Col>
         <Link to="/pages/digital-marketing">
           <Jumbotron className="text-center">
-            <img src="../src/digital.jpg"
+            <img src="../src/images/digital.jpg"
               alt="Digital Marketing in 2022"
               className="align-self-center img-fluid"/>
             <h2>
@@ -25,7 +25,7 @@ const News = () => (
       <Col>
         <Link to="/pages/google-display">
           <Jumbotron className="text-center">
-            <img src="../src/google-display.jpg"
+            <img src="../src/images/google-display.jpg"
               alt="Digital Marketing in 2022"
               className="align-self-center img-fluid"/>
             <h2>
@@ -37,7 +37,7 @@ const News = () => (
         <Col>
           <Link to="/pages/higher-education">
             <Jumbotron className="text-center">
-              <img src="../src/digital-marketing-guide.jpg"
+              <img src="../src/images/digital-marketing-guide.jpg"
                 alt="Digital Marketing in 2022"
                 className="align-self-center img-fluid"/>
               </Jumbotron>
@@ -57,7 +57,7 @@ const News = () => (
           <Col>
             <Link to="/pages/ai">
               <Jumbotron className="text-center">
-                <img src="../src/ai.jpg"
+                <img src="../src/images/ai.jpg"
                   alt="AI"
                   className="align-self-center img-fluid"/>
                   <h2>
@@ -71,7 +71,7 @@ const News = () => (
           <Col>
             <Link to="/pages/media-monitor">
               <Jumbotron className="text-center">
-                <img src="../src/media-monitoring.jpg"
+                <img src="../src/images/media-monitoring.jpg"
                 alt="Media Monitor"
                 className="align-self-center img-fluid"/>
                 <h2>
@@ -83,7 +83,7 @@ const News = () => (
             <Col>
               <Link to="/pages/email-marketing">
                 <Jumbotron className="text-center">
-                  <img src="../src/email-marketing.jpg"
+                  <img src="../src/images/email-marketing.jpg"
                     alt="Email Marketing"
                     className="align-self-center img-fluid"/>
                   </Jumbotron>
@@ -94,7 +94,7 @@ const News = () => (
             <Col>
               <Link to="/pages/education-marketing">
                 <Jumbotron className="text-center w-100">
-                  <img src="../src/education-marketing.jpg"
+                  <img src="../src/images/education-marketing.jpg"
                     alt="5 Tips to Succeed in Higher Education Marketing"
                     className="align-self-center img-fluid"/>
                   <h2>

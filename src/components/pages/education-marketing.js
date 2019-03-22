@@ -5,7 +5,7 @@ import React from 'react';
 
     <h2>5 Tips to Succeed in Higher Education Marketing [+ Guide]</h2>
 
-    <img src="../src/education-marketing.jpg"
+    <img src="../src/images/education-marketing.jpg"
       alt="Email Marketing"
       className="align-self-center img-fluid"/><br /><br />
 

@@ -6,7 +6,7 @@ import React from 'react';
 
     <h2>14 Digital Marketing Predictions for 2022 [+ Infographic]</h2>
 
-    <img src="../src/digital.jpg"
+    <img src="../src/images/digital.jpg"
       alt="Digital Marketing in 2022"
       className="align-self-center img-fluid"/><br /><br />
 
@@ -37,7 +37,7 @@ import React from 'react';
     <h1>1. Content marketing will be &ldquo;content selling&rdquo;</h1>
     <p>More and more marketers realize the importance of content marketing.</p>
     <p>According to the <a href="https://searchenginewatch.com/2018/11/21/7-content-marketing-stats-2019/" target="_blank">report by Content Marketing Institute</a>, 93% of the most successful B2B content marketers reported that their organization is extremely/very committed to content marketing.</p>
-    <p><a href="../src/content-marketing-trends.png" class="fancybox"><img class="shadow-img" src="https://www.lianatech.com/media/international-pictures/en/news/14-digital-marketing-predictions-for-2022/cache/content-marketing-trends-700x434.png" alt="" width="700" /></a></p>
+    <p><a href="../src/images/content-marketing-trends.png" class="fancybox"><img class="shadow-img" src="https://www.lianatech.com/media/international-pictures/en/news/14-digital-marketing-predictions-for-2022/cache/content-marketing-trends-700x434.png" alt="" width="700" /></a></p>
     <p>Companies are changing their approach to creating marketing collateral. That&rsquo;s where the term <em>content selling</em> comes into the play.</p>
     <p>This essentially means that content should be created to support sales processes. Marketing teams need to have a strategic approach to content creation and align content strategy with the customer journey.&nbsp;What is more, it becomes crucial to measure the impact of content marketing on sales. This can be achieved by setting <a href="https://contentmarketinginstitute.com/2013/02/kpis-for-content-marketing-measurement/" target="_blank">the right KPI's for content marketing</a>.&nbsp;</p>
     <p>Ask yourself:</p>

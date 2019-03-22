@@ -14,7 +14,7 @@ import React from 'react';
           <li>How to set the right targeting?</li>
         </ul>
         <p><em><a href="https://www.lianatech.com/l/google-ads-integration.html?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=display_ads_infographic" target="_blank">Learn how to create Google Ads campaigns with Liana Technologies.</a></em></p>
-        <p><img  className="w-100" src="../src/google-display-1.png"/></p>
+        <p><img  className="w-100" src="../src/images/google-display-1.png"/></p>
       	<pubDate>Wed, 23 Jan 2019 13:32:00 +0200</pubDate>
         <br /><br />
     </div>
