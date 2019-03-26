@@ -16,19 +16,17 @@ module.exports = {
 				test: /\.(less|css)$/,
 				loaders: ["style-loader", "css-loader", "less-loader"]
 			},{
-				test: /\.(ttf|eot|svg|gif)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-        include: parentDir,
-        use: [{
-          loader: 'file-loader'
-			}
-		]
-    },
-    output: {
-        path: parentDir,
+				test: /\.(jpe?g|png|gif|woff|woff2|eot|ttf|svg)(\?[a-z0-9=.]+)?$/,
+      	loader: 'url-loader?limit=100000'
+			}]
+		},
+
+		output: {
+        path: parentDir + '/dist',
         filename: 'bundle.js'
     },
     devServer: {
         contentBase: parentDir,
         historyApiFallback: true
     }
-}
+};

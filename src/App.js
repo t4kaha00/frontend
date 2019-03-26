@@ -9,7 +9,7 @@ import NavbarToggle from 'react-bootstrap/NavbarToggle';
 import Form from 'react-bootstrap/FormGroup';
 import { Link } from 'react-router-dom'
 
-import Navigation from './Navigation'
+
 import Router from './Router'
 import Home from './components/Home'
 import Footer from './components/Footer'
@@ -20,7 +20,6 @@ export default class App extends Component {
         return (
 
             <div>
-                <Navigation />
                 <Router />
             </div>
 

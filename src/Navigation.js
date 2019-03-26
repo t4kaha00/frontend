@@ -9,14 +9,15 @@ const Navigation = () => (
       <Navbar className="float-sm-right" expand="lg">
           <NavLink to='/news' style={{color: 'white'}} className="pr-4">News</NavLink>
           <NavLink to="/" style={{color: 'white'}} className="pr-4">Intranet</NavLink>
-          <NavDropdown  style={{color: 'white'}} title="Language" id="basic-nav-dropdown" className="bg-light rounded xs">
-            <NavDropdown.Item href="">Finnish</NavDropdown.Item>
-            <NavDropdown.Item href="">English</NavDropdown.Item>
-          </NavDropdown>
+          <select className="custom-select pr-5 py-0">
+              <option selected>In English</option>
+              <option>Suomeksi</option>
+              <option>På svenska</option>
+            </select>
       </Navbar>
     </div>
 
-    <Navbar className="mt-5 font-weight-light bg-light" expand="lg">
+    <Navbar className="mt-5 font-weight-light" expand="lg" style={{backgroundColor: 'white'}}>
       <NavbarBrand>
         <a href="/"><img src="../src/images/liana-logo.jpg" className="ml-5 mt-2" height={40} alt="Liana logo"/></a>
       </NavbarBrand>

@@ -16,7 +16,8 @@ body,html{margin:0;padding:0;}
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 100vh;
+  height: 80vh;
+  margin-top: 140px;
 
 
 }
@@ -25,6 +26,7 @@ body,html{margin:0;padding:0;}
 .parallax::after {
   /* Display and position the pseudo-element */
   content: " ";
+  background-repeat: no-repeat;
   position: absolute;
   top: 0;
   right: 0;
@@ -40,5 +42,17 @@ body,html{margin:0;padding:0;}
   /* Keep the image from overlapping sibling elements. */
   z-index: -1;
 
-  background-image: url('http://www.students.oamk.fi/~t6bada00/Koodiviidakko/assets/background.png');
+  background-image: url('../images/main.png');
+}
+
+h2 {
+  font-size: 24px !important;
+  color: #212529;
+  color: black;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover {
+  text-decoration: none;
 }
