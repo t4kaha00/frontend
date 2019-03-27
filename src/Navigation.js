@@ -9,11 +9,13 @@ const Navigation = () => (
       <Navbar className="float-sm-right" expand="lg">
           <NavLink to='/news' style={{color: 'white'}} className="pr-4">News</NavLink>
           <NavLink to="/" style={{color: 'white'}} className="pr-4">Intranet</NavLink>
-          <select className="custom-select pr-5 py-0">
+          <NavLink>
+            <select className="custom-select pr-5 py-0">
               <option selected>In English</option>
               <option>Suomeksi</option>
               <option>På svenska</option>
             </select>
+          </NavLink>
       </Navbar>
     </div>
 

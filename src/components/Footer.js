@@ -4,24 +4,31 @@ const linkStyle = {
   color: 'white'
 }
 
+const footerStyle = {
+  display: 'inline-block',
+  backgroundColor: 'black'
+};
+
 const Footer = () => (
 
-  <footer className="bg-dark w-100" >
-    <div className="card-body float-left">
-       <h2>Liana Technologies</h2>
-       <p>Sales and inquiries</p>
-       <p>Email: sales@lianatech.com</p>
-       <p>Phone: +358 10 387 7053 </p>
+  <div className="container-fluid border-top py-2" style={footerStyle}>
+
+    <div className="float-left">
+       <h2 style={linkStyle}>Liana Technologies</h2>
+       <p style={linkStyle}>Sales and inquiries</p>
+       <p style={linkStyle}>Email: sales@lianatech.com</p>
+       <p style={linkStyle}>Phone: +358 10 387 7053 </p>
        <button type="button" className="btn btn-success">Contact us</button>
     </div>
-    <div className="card-body float-right">
+    <div className="float-right">
        <a style={linkStyle} href="#" className="card-link">Company</a>
        <a style={linkStyle} href="#" className="card-link">Products</a>
        <a style={linkStyle} href="#" className="card-link">Contact us</a>
        <a style={linkStyle} href="#" className="card-link">News</a>
        <a style={linkStyle} href="#" className="card-link">Intranet</a>
     </div>
-  </footer>
+
+  </div>
 )
 
 export default Footer

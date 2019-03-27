@@ -1,8 +1,9 @@
 import React from 'react';
-
+import Footer from '../Footer'
 
   const GoogleDisplay = () => (
-    <div className="w-75 mt-5 mx-auto">
+    <div>
+      <div className="w-90 mx-5" style={{marginTop: '140px'}}>
         <h2>A Beginner's Guide to Google Display Ads [Infographic]</h2>
 
     	  <p>New to the Google Display Network?</p>
@@ -17,6 +18,9 @@ import React from 'react';
         <p><img  className="w-100" src="../src/images/google-display-1.png"/></p>
       	<pubDate>Wed, 23 Jan 2019 13:32:00 +0200</pubDate>
         <br /><br />
+      </div>
+
+      <Footer />
     </div>
   )
 

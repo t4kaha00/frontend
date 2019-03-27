@@ -2,21 +2,27 @@ import React from 'react'
 import { Card, CardGroup, CardDeck, Jumbotron, Button } from 'react-bootstrap';
 import "./home.css"
 import Navigation from '../Navigation'
+import Footer from './Footer'
 
 const linkStyle = {
   color: 'white'
+};
+const footerStyle = {
+  display: 'inline-block',
+  backgroundColor: 'black'
 };
 
 const Home = () => (
 
   <div className="wrapper">
-    <Navigation />
 
-    <section className="section parallax justify-content-center" style={{display: 'flex', 'flexDirection': 'column', 'alignItems': 'center',  'justifyContent': 'center', color: 'white'}}>
+
+    <section className="section parallax justify-content-center align-items-center" style={{display: 'flex', 'flexDirection': 'column', 'alignItems': 'center',  'justifyContent': 'center', color: 'white'}}>
       <h1 className=" font-weight-light lg">Software fueling digital marketing</h1>
       <Button variant="success" href="/news">Learn More</Button>
     </section>
-    <section className="section static">
+
+    <section className=" static">
 
       <CardDeck className="py-5 px-5 bg-light" height={200}>
         <Card className="text-center my-auto" text="light" >
@@ -122,22 +128,7 @@ const Home = () => (
         <p id="subscription-msg" className="text-danger"></p>
       </div>
 
-      <footer className="" style={{backgroundColor: 'black'}}>
-        <div className="card-body float-left">
-           <h2>Liana Technologies</h2>
-           <p>Sales and inquiries</p>
-           <p>Email: sales@lianatech.com</p>
-           <p>Phone: +358 10 387 7053 </p>
-           <button type="button" className="btn btn-success">Contact us</button>
-        </div>
-        <div className="card-body float-right">
-           <a style={linkStyle} href="#" className="card-link">Company</a>
-           <a style={linkStyle} href="#" className="card-link">Products</a>
-           <a style={linkStyle} href="#" className="card-link">Contact us</a>
-           <a style={linkStyle} href="#" className="card-link">News</a>
-           <a style={linkStyle} href="#" className="card-link">Intranet</a>
-        </div>
-      </footer>
+      <Footer />
     </section>
   </div>
 )

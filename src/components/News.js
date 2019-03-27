@@ -3,12 +3,10 @@ import { Jumbotron, Button, Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom'
 
 import "./home.css"
-import Navigation from '../Navigation'
+import Footer from './Footer'
 
 const News = () => (
   <div className="bg-light wrapper">
-
-  <Navigation />
 
   <Container className="px-5" style={{marginTop: '140px'}}>
     <Row>
@@ -117,6 +115,8 @@ const News = () => (
             </Col>
           </Row>
       </Container>
+
+      <Footer />
     </div>
 )
 

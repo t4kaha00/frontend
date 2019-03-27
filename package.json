@@ -1,12 +1,14 @@
 {
-  "homepage": "",
+  "homepage": "http://my-harjit.surge.sh",
   "name": "projects",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js"
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js",
+    "build": "react-scripts build",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
